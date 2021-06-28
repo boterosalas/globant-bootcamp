@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+.magazine-container {
+    width: 500px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 50px;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.75);
+}
+.sale{
+    width: 160px;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    background-color: #ff0000;
+    color: #ffffff;
+    transform: rotate(45deg);
+    font-size: 20px;
+    font-weight: bold;
+}
+.articles {
+    display: flex;
+    justify-content: space-between;
+    min-height: 400px;
+    background-image: url("./back.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.articles__container:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.articles__desc{
+    letter-spacing: -0.5px;
+}
+.oswald {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: -1px;
+}
+h1.magazine-title {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: -3px;
+}
+.fs-b {
+    font-size: 130px;
+}
+.fs-s {
+    font-size: 60px;
+}
+.text-center {
+    text-align: center;
+}
+.m-0 {
+    margin: 0px;
+}
+.mb-2 {
+    margin-bottom: 20px;
+}
+
